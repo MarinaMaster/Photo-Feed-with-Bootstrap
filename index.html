@@ -10,90 +10,90 @@
 </head>
 <body>
     <div class="header">
-    <div class="container-fluid bg-light" style="padding:20px 20px 20px 20px">
-        <div class="row align-items-center">
-            <div class="col-md-9">
-                <div class="p-3">
-        <i class="fa-brands fa-instagram" style="font-size:25px"></i>
-        <a class="navbar-brand" style="font-size:20px">Instagram</a>
+        <div class="container-fluid bg-light" style="padding:20px 20px 20px 20px">
+            <div class="row align-items-center">
+                <div class="col-md-9">
+                    <div class="p-3">
+            <i class="fa-brands fa-instagram" style="font-size:25px"></i>
+            <a class="navbar-brand" style="font-size:20px">Instagram</a>
+        </div>
     </div>
-</div>
-
-<div class="col-md-2">
-    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Create a new post</button>
-
-    <div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <form>
-                <div class="mb-3">
-                    <label for="message-text" class="col-form-label">Caption:</label>
-                    <textarea class="form-control" id="message-text" placeholder="Add the caption of your post here"></textarea>
+    
+    <div class="col-md-2">
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Create a new post</button>
+    
+        <div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-            </form>
-            <img src="./picture-2.png" alt="Img-2" style="width:100px">
+                <div class="modal-body">
+                    <form>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Caption:</label>
+                        <textarea class="form-control" id="message-text" placeholder="Add the caption of your post here"></textarea>
+                    </div>
+                </form>
+                <button type="button" class="btn btn-light"><i class="fa-solid fa-camera"></i></button>
+                <button type="button" class="btn btn-light"><i class="fa-solid fa-location-dot"></i></button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Publish</button>
+                </div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-success">Publish</button>
             </div>
         </div>
+    </div>
+    
+    <div class="col-md-1">
+        <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img src="./Image1.png" class="rounded float-start" alt="Img-1" style="width:30px"></button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+            </ul>
         </div>
     </div>
-</div>
-
-<div class="col-md-1">
-    <div class="btn-group">
-        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img src="./Image1.png" class="rounded float-start" alt="Img-1" style="width:30px"></button>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Profile</a></li>
-            <li><a class="dropdown-item" href="#">Accesibility</a></li>
-            <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
-        </ul>
     </div>
-</div>
-</div>
-</div>
+    </div>
 
 <div class="nav-pull">
-    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="justify-content:center">
         <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">home</i></button>
+            <button class="nav-link active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fa-solid fa-square"></i></button>
         </li>
-        
-      </ul>
-      <div class="tab-content" id="pills-tabContent">
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-            <section class="gallery" style="padding:50px 20px 20px 20px">
+            <section class="gallery" style="padding:20px 20px 20px 20px">
                 <div class="container">
                     <div class="row gy-2 row-cols-1 row-cols-sm-2 row-cols-md-3">
                         <div class="col">
                             <img src="https://source.unsplash.com/random/300x200" class="w-100 p-2" alt="random-picture1" style="height:350px">
                     </div>
                         <div class="col">
-                            <img src="https://source.unsplash.com/random/300x200" class="w-100 p-2" alt="random-picture2" style="height:350px">
+                            <img src="https://loremflickr.com/320/240" class="w-100 p-2" alt="random-picture2" style="height:350px">
                             </div>
                             <div class="col">
-                                <img src="https://source.unsplash.com/random/300x200" class="w-100 p-2" alt="random-picture3" style="height:350px">
+                                <img src="https://loremflickr.com/320/240/dog" class="w-100 p-2" alt="random-picture3" style="height:350px">
                                 </div>
                                 <div class="col">
-                                    <img src="https://source.unsplash.com/random/300x200" class="w-100 p-2" alt="random-picture4" style="height:350px">
+                                    <img src="https://loremflickr.com/320/240/paris,girl/all" class="w-100 p-2" alt="random-picture4" style="height:350px">
                                 </div>
                                 <div class="col">
-                                    <img src="https://source.unsplash.com/random/300x200" class="w-100 p-2" alt="random-picture5" style="height:350px">
+                                    <img src="https://loremflickr.com/320/240/brazil,rio" class="w-100 p-2" alt="random-picture5" style="height:350px">
                                 </div>
                                 <div class="col">
-                                    <img src="https://source.unsplash.com/random/300x200" class="w-100 p-2" alt="random-picture6" style="height:350px">
+                                    <img src="https://loremflickr.com/g/320/240/paris,girl/all" class="w-100 p-2" alt="random-picture6" style="height:350px">
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@
             </section>
         </div>
         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-            <div class="gallery-container">
+            <div class="gallery-container" style="padding:20px 20px 20px 20px">
                 <div class="row justify-content-md-center">
                     <div class="col-4">
                         <div class="post" style=" border:solid rgb(232, 229, 229) 2px">
@@ -112,13 +112,32 @@
                             <div style="float:right"><p style="text-align: right">12/17</p></div>
                         </div>
                         </div>
-                        <img src="https://source.unsplash.com/random/300x200" class="w-100" alt="random-picture1" style="height:auto">
+                        <img src="https://loremflickr.com/320/240/dog" class="w-100" alt="random-picture1" style="height:auto">
                     <div style="margin:10px 5px 20px 5px">
                         <strong>204 likes</strong>
                         <p>This is an example of very good photo</p>
                     </div>
                 </div>
                 </div>
+
+                <div class="row justify-content-md-center">
+                    <div class="col-4">
+                        <div class="post" style=" border:solid rgb(232, 229, 229) 2px">
+                                <div class="post-header">
+                            <div style="margin:10px 5px 0px 5px">
+                            <div style="float:left"><h2 style="font-size: 20px;">My Crazy dog Spark!</h2></div>
+                            <div style="float:right"><p style="text-align: right">12/17</p></div>
+                        </div>
+                        </div>
+                        <img src="https://loremflickr.com/320/240/dog" class="w-100" alt="random-picture1" style="height:auto">
+                    <div style="margin:10px 5px 20px 5px">
+                        <strong>204 likes</strong>
+                        <p>This is an example of very good photo</p>
+                    </div>
+                </div>
+                </div>
+                </div>
+
                 </div>
             </div>
         </div>
